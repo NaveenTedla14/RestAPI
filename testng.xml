@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="userId" value="5"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="Test">
+        <classes>
+            <class name="demo.DataDrivenExamples1">
+                <methods>
+                    <include name="test_delete2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
